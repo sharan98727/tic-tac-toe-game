@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+body {
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    }
+
+/* ouside box design and properties */
+.container {
+    background-color: #528833;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 25px;
+           }  
+
+/*title alignment and color*/
+.title {
+    text-align: center;
+}
+
+#s2 {
+    
+    color:rgb(139, 55, 30);
+}
+#s1 {
+   
+    color: rgb(179, 190, 16);
+}
+/*instructions alignment and color*/
+.instructions {
+    margin-top: 20px;
+    text-align: center;
+    color: #244412;
+}
+
+#a2 {
+    margin-left: 40px;
+}
+
+
+/* Inside Grid cells design and properties */
+.grid {  
+     background-color: rgb(2, 59, 55);
+     justify-content: center;
+     display: grid;
+     grid-template-columns: 100px 100px 100px;
+     grid-template-rows: 100px 100px 100px;
+     grid-gap: 5px;  
+     margin-top: 50px;
+     text-align: center;
+     }
+
+/*design and color of cells inside grid */
+.box{
+   
+    background-color:#528833 ;
+    color: white;
+    /* text-align: center; */
+    font-size: xx-large;
+    line-height: 120px; 
+
+}

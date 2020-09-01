@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <! method of converting what we typed into machine readable code >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic tac toe</title>
+</head>
+<body>
+<div class="container">
+    <h1 class="title"><span id="s1">Tic </span><span id="s2">Tac</span> Toe</h1>
+    <h4 class="instructions"><span id="a1">Player 1 use X</span><span id="a2">Player 2 use O</span></h4>
+    <div onkeyup="fnBoxValChange(event)"> <! when we write something in the divisions>
+        <div class="grid">
+            <div id='1' class="box" contenteditable></div>
+            <div id='2' class="box" contenteditable></div> 
+            <div id='3' class="box" contenteditable></div>
+            <div id='4' class="box" contenteditable></div>
+            <div id='5' class="box" contenteditable></div>
+            <div id='6' class="box" contenteditable></div>
+            <div id='7' class="box" contenteditable></div>
+            <div id='8' class="box" contenteditable></div>
+            <div id='9' class="box" contenteditable></div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
